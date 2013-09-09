@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+	<meta charset="utf-8"></meta>
+    <title>Календарь</title>
+	<link href="css/adnap.calendar.style.css" rel="stylesheet"></link>
+	<script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="js/adnap.calendar.js"></script>
+	<script type="text/javascript" src="js/adnap.popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+	<div class="content">
+		<div class="calendar_menu">
+			<div class="wrapper">
+				<div class="left">
+					<button type="button" class="btn blue" id="js_add_event">Добавить</button>
+					<button type="button" class="btn blue js_refresh">Обновить</button>
+				</div>
+				<div class="right">
+					<div class="search_ico"></div>
+					<input type="text" placeholder="Событие, дата или участник" class="search"></input>
+				</div>
+			</div>
+		</div>
+		<div class="calendar_content" id="js-adnap-calendar">
+			<div id="js-adnap-calendar-ph"></div>
+		</div>
+	</div>
+  </body>
+</html>
